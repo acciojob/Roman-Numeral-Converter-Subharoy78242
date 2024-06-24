@@ -27,7 +27,4 @@ function convertToRoman(num) {
     return romanNumeral;
 }
 
-// Example usage:
-console.log(convertToRoman(14));    // Output: XIV
-console.log(convertToRoman(798));   // Output: DCCXCVIII
-console.log(convertToRoman(36));    // Output: XXXVI
+module.exports = convertToRoman;
